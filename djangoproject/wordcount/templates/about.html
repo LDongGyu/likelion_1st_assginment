@@ -1,0 +1,26 @@
+<head>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+
+<div class="container">
+
+    <h1>About</h1>
+
+    <ul class="nav nav-tabs">
+        <li role="presentation"><a href="/">Home</a></li>
+        <li role="presentation" class="active"><a href="{%url 'about'%}">ABOUT</a></li>
+    </ul>
+
+    <p>1. home에서 빈칸에 글을 입력한다.</p><br>
+    <p>2. '제출'버튼을 누른다.</p><br>
+    <p>3. result페이지로 옮겨가며 글에 각 단어가 몇개 사용되었는 지 출력해준다.</p><br>
+
+    <a href="{%url 'home'%}">Home으로 돌아가기</a>
+</div>
